@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-27 13:59+0000\n"
+"POT-Creation-Date: 2023-08-27 14:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: django_ug_test/settings.py:113
-msgid "Uyghur"
+msgid "English"
 msgstr ""
 
 #: django_ug_test/settings.py:114
+msgid "Uyghur"
+msgstr ""
+
+#: django_ug_test/settings.py:115
 msgid "Uyghur Latin"
 msgstr "ئۇيغۇرچە"
 
-#: django_ug_test/settings.py:115
+#: django_ug_test/settings.py:116
 msgid "Uyghur Cyrillic"
 msgstr ""
 
