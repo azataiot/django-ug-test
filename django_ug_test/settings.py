@@ -25,9 +25,7 @@ SECRET_KEY = "django-insecure-arywm%*o^pppbofgt=l(6wl5*f9md3rk+h@_4wgm#i3n$x896j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "*"
-]
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
@@ -55,8 +53,7 @@ ROOT_URLCONF = "django_ug_test.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / 'templates']
-        ,
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -114,6 +111,10 @@ LANGUAGES = (
     ("en", _("English")),
     ("ug", _("Uyghur")),
 )
+
+LOCALE_PATHS = [
+    BASE_DIR / "locale/",
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
